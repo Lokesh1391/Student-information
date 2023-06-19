@@ -1,0 +1,30 @@
+body{
+
+
+}
+
+.card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.card{
+    border-style: none;
+    border-radius: 15px;
+    width: 350px;
+    height: 400px; 
+    background:linear-gradient( rgb(177, 249, 249),rgb(193, 189, 189)); 
+}
+h3{
+    text-align: start;
+    margin-left: 10px;
+    padding: 10px;
+  
+}
+.bn{
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
