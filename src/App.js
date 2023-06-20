@@ -14,7 +14,7 @@ function App(){
             <Router>
 
                 <Routes>
-                    <Route path='/studentlist' element={<StudentList/>}/>
+                    <Route path='/' element={<StudentList/>}/>
                 <Route path='/form' element={<Studentform/>}/>
                 <Route path='/editInfo/:studentid' element={<EditStudentInfo/>} />
                 <Route path='/viewdetails/:studentid' element={<ViewDetails/>}/>
