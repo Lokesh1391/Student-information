@@ -18,8 +18,8 @@ function App(){
                 <Route path='/form' element={<Studentform/>}/>
                 <Route path='/editInfo/:studentid' element={<EditStudentInfo/>} />
                 <Route path='/viewdetails/:studentid' element={<ViewDetails/>}/>
-                <Route path='/' element={<CollegeReg/>}/>
-                <Route path='/login' element={<Login/>}/>
+                // <Route path='/' element={<CollegeReg/>}/>
+                // <Route path='/login' element={<Login/>}/>
                 </Routes>
             </Router>
            
