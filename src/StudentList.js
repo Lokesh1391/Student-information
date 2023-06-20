@@ -15,7 +15,7 @@ const navigate =useNavigate();
 
 
 useEffect(()=>{
-fetch("http://localhost:3006/StudenInfo")
+fetch("https://json-rest-api-b3fm.onrender.com")
 .then(res=>res.json())
 .then(resp=>setData(resp))
 .catch(err=>err)
